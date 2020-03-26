@@ -5,6 +5,7 @@ import xlwt
 from django.http import HttpResponse
 from django.urls import reverse_lazy
 from django.views import View
+from django.contrib.auth.models import User
 
 from .models import RegistroHoraExtra
 from .forms import RegistroHoraExtraForm
